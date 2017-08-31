@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/eduvpn-debian/random_compat.git
 Vcs-Browser: https://github.com/eduvpn-debian/random-compat
 
 Package: php-paragonie-random-compat
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
 Suggests: ${phpcomposer:Debian-suggest}
 Description: ${phpcomposer:description}
