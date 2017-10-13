@@ -1,5 +1,5 @@
 Source: random-compat
-Section: web
+Section: php
 Priority: optional
 Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 9), pkg-php-tools
@@ -13,3 +13,5 @@ Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
 Suggests: ${phpcomposer:Debian-suggest}
 Description: ${phpcomposer:description}
+ This library exposes the CSPRNG functions added in PHP 7 for use in PHP 5
+ projects. Their behavior should be identical.
